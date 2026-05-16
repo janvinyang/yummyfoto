@@ -1,0 +1,22 @@
+var __ARTICLES__ = [
+  {
+    "title": "合集：美食摄影",
+    "url": "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU5MTA3MjA4MQ==&action=getalbum&album_id=1854724391842938884#wechat_redirect"
+  },
+  {
+    "title": "室内摄影：T3航站楼拍摄",
+    "url": "https://mp.weixin.qq.com/s/9RiyN1QXDCA5p88Bufh59w"
+  },
+  {
+    "title": "风光摄影：再看看南疆之旅，感受中国之大",
+    "url": "https://mp.weixin.qq.com/s/5gK04CoPWtDzHmIl0Itrrg"
+  },
+  {
+    "title": "旅游摄影：2025年春节漫步香港街巷",
+    "url": "https://mp.weixin.qq.com/s/3hvCf5LIbmDtsgPeZb1l9A"
+  },
+  {
+    "title": "旅游摄影：2012年的印尼小岛之旅",
+    "url": "https://mp.weixin.qq.com/s/bxTwxdClT3YKVxwMT1aH-A"
+  }
+];
