@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>服务 | YummyFoto 杨大文</title>
+    <meta name="description" content="YummyFoto 提供美食摄影、静物产品、人文纪实与风光摄影服务。了解我们的服务内容与报价。">
+    <meta name="keywords" content="美食摄影服务,产品摄影,纪实摄影,风光摄影报价,YummyFoto服务">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">YummyFoto<sup>®</sup></a>
+        <ul class="nav-links">
+            <li><a href="index.html">作品</a></li>
+            <li><a href="about.html">关于</a></li>
+            <li><a href="services.html" class="active">服务</a></li>
+        </ul>
+        <button class="nav-menu-btn" onclick="toggleMobileMenu()" aria-label="菜单">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round">
+                <line x1="4" y1="7" x2="20" y2="7"/>
+                <line x1="4" y1="12" x2="20" y2="12"/>
+                <line x1="4" y1="17" x2="20" y2="17"/>
+            </svg>
+        </button>
+    </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" onclick="toggleMobileMenu()">作品</a>
+    <a href="about.html" onclick="toggleMobileMenu()">关于</a>
+    <a href="services.html" onclick="toggleMobileMenu()">服务</a>
+</div>
+
+<!-- Page Hero -->
+<header class="page-hero">
+    <div class="page-hero-inner">
+
+        <h1 class="page-hero-heading">镜头前<br>我们<em>带来</em>什么</h1>
+        <p class="page-hero-sub">
+            每一个项目都是一次全新的创作。我们将创意与精度融入每一次快门，为品牌、创作者和个人留下值得珍藏的影像。
+        </p>
+    </div>
+</header>
+
+<img class="banner-strip" src="images/landscape/191913760.jpg" alt="草原上的羊群摄影作品">
+
+<!-- Services Grid -->
+<section class="services-section">
+    <div class="services-inner">
+        <div class="services-grid">
+            <article class="service-card">
+                <span class="service-num">01</span>
+                <h3 class="service-title">美食摄影</h3>
+                <p class="service-desc">
+                    为餐厅、品牌与创作者打造能唤起食欲的美食影像。擅长自然光与棚布光结合，精准还原食材质感与摆盘层次。适合菜单更新、品牌宣传、社交媒体运营等场景。
+                </p>
+                <!--<span class="service-price">起步价 ¥800 / 组</span>
+                <a href="mailto:yangzhanwen@qq.com?subject=美食摄影合作" class="service-cta">
+                    联系合作
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>-->
+            </article>
+
+            <article class="service-card">
+                <span class="service-num">02</span>
+                <h3 class="service-title">静物产品摄影</h3>
+                <p class="service-desc">
+                    为电商、品牌视觉与广告物料提供高完成度的产品图片。从背景材质到光线角度，每一张都经过反复推敲。适合电商上架、品牌画册、广告投放等用途。
+                </p>
+                <!--<span class="service-price">起步价 ¥600 / 组</span>
+                <a href="mailto:yangzhanwen@qq.com?subject=产品摄影合作" class="service-cta">
+                    联系合作
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>-->
+            </article>
+
+            <article class="service-card">
+                <span class="service-num">03</span>
+                <h3 class="service-title">人文纪实摄影</h3>
+                <p class="service-desc">
+                    以观察者的视角，记录城市与人的故事。街头、日常、正在消失的场景 —— 用影像保留一座城市的时间切片。适合艺术项目、展览出版、城市宣传等。
+                </p>
+                <!--<span class="service-price">起步价 ¥1,200 / 天</span>
+                <a href="mailto:yangzhanwen@qq.com?subject=纪实摄影合作" class="service-cta">
+                    联系合作
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>-->
+            </article>
+
+            <article class="service-card">
+                <span class="service-num">04</span>
+                <h3 class="service-title">风光摄影</h3>
+                <p class="service-desc">
+                    用广角与长焦捕捉自然中最动人的光影变化。适合艺术项目、展览、出版物及装饰画定制。
+                </p>
+                <!--<span class="service-price">起步价 ¥1,500 / 组</span>
+                <a href="mailto:yangzhanwen@qq.com?subject=风光摄影合作" class="service-cta">
+                    联系合作
+                    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>-->
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- What's Included 
+<section class="process-section">
+    <div class="process-inner">
+        <span class="section-label">What's Included</span>
+        <h2 class="process-heading">每次拍摄<br>我们<em>交付</em>什么</h2>
+        <div class="process-grid">
+            <div class="process-item">
+                <span class="process-num">01</span>
+                <h3 class="process-title">前期筹备</h3>
+                <p class="process-desc">
+                    包含主题策划、风格参考、光线方案讨论。拍摄前可预约15-30分钟的免费咨询，确保双方对项目有明确预期。
+                </p>
+            </div>
+            <div class="process-item">
+                <span class="process-num">02</span>
+                <h3 class="process-title">现场拍摄</h3>
+                <p class="process-desc">
+                    专业器材（Sony 全画幅 + 多支定焦/变焦镜头 + 灯光设备），根据题材选择自然光或棚拍布光。提供现场实时预览。
+                </p>
+            </div>
+            <div class="process-item">
+                <span class="process-num">03</span>
+                <h3 class="process-title">后期精修</h3>
+                <p class="process-desc">
+                    每组包含10-30张精修成片（根据项目而定），涵盖调色、皮肤/质感修饰、构图优化。风格可按需定制。
+                </p>
+            </div>
+            <div class="process-item">
+                <span class="process-num">04</span>
+                <h3 class="process-title">文件交付</h3>
+                <p class="process-desc">
+                    以高分辨率 JPG/PNG 格式通过云盘交付。可额外提供 TIFF 格式或特定尺寸裁切（用于印刷/电商等场景）。
+                </p>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+<!-- Contact CTA -->
+<section class="contact-section">
+    <div class="contact-inner">
+        <h2 class="contact-title">立即预约</h2>
+       <!--  <p class="contact-desc">报价仅供参考，具体费用根据项目需求、拍摄地点和交付标准有所浮动。欢迎联系获取详细报价。</p>-->
+        <div class="contact-links">
+            <a href="mailto:yangzhanwen@qq.com" class="contact-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="4" width="20" height="16" rx="2"/>
+                    <path d="M22 4L12 13 2 4"/>
+                </svg>
+                Email：yangzhanwen@qq.com
+            </a>
+            <a href="#" class="contact-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/>
+                </svg>
+                微信：Janvinyang
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-inner">
+        <p>© 2025 Janvinyang. All rights reserved.</p>
+        <p>Photography with light &amp; shadow.</p>
+    </div>
+</footer>
+
+<script>
+    function toggleMobileMenu() {
+        document.getElementById('mobileMenu').classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>
